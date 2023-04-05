@@ -24,10 +24,9 @@ Techstack:
  - MySQL(MariaDB)     -> Database
 
 Starting application:
- -> Install MariaDB and create a database named java.
- 
- -> Install java in local system, run jar file cli present in target folder. "java -jar insurance-management-1.0.jar"
-    or
- -> Install docker in local system, create docker image and run the image.
-    sample code - docker build . -t insurance
-                - docker run -p 8080:8080 insurance
+ - Install MariaDB and create a database named java.
+ - Install java in local system, run jar file cli present in target folder. "java -jar insurance-management-1.0.jar"
+ - or
+ - Install docker in local system, create docker image and run the image.
+ - sample code "docker build . -t insurance" , "docker run -p 8080:8080 insurance"
+
